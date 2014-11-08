@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cdcdcd"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:keepScreenOn="true"
+        android:src="@drawable/icon" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="#f00"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/left"
+                android:textColor="#000" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/SeekBarLeftRight"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:thumb="@drawable/btn_square_overlay_normal"
+                android:thumbOffset="4px" >
+            </SeekBar>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/right"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="#0c0"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/backward"
+                android:textColor="#000" >
+            </TextView>
+
+            <SeekBar
+                android:id="@+id/SeekBarForwardBackward"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:thumb="@drawable/btn_square_overlay_normal"
+                android:thumbOffset="4px" >
+            </SeekBar>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/forward"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="#000"
+            android:paddingRight="10dp" >
+
+            <Button
+                android:id="@+id/flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flash" />
+
+            <Button
+                android:id="@+id/mode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode1" />
+
+            <Button
+                android:id="@+id/mode2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode2" />
+
+            <Button
+                android:id="@+id/mode3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

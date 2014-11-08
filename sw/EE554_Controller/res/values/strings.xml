@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiColorLamp</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="Left">left</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="backward">Backward</string>
+    <string name="forward">Forward</string>
+    <string name="leftright">Left/Right Status</string>
+    <string name="forwardbackward">Forward/Backward Status</string>
+    <string name="flash">Flash</string>
+    <string name="mode">Mode</string>
+    <string name="mode1">Mode 1</string>
+    <string name="mode2">Mode 2</string>
+    <string name="mode3">Mode 3</string>
+    <string name="ee554name">EE554 Controller</string>
+    <string name="name">EE554 Controller</string>
+</resources>

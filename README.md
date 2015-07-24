@@ -12,7 +12,7 @@ This project was developed in the spring of 2012 for USC's Real Time Computer Sy
 
 
 ## Hardware
-The Sensing Mobile Android-assisted Real Time (SMART) Car is an R/C car retrofitted with a real-time computer system to prevent head-on traffic collisions. This scaled hardware platform consists of R/C car, microcontroller, and Android-powered smartphones.
+The Sensing Mobile Android-assisted Real Time (SMART) Car is an RC car retrofitted with a real-time computer system to prevent head-on traffic collisions. This scaled hardware platform consists of RC car, microcontroller, and Android-powered smartphones.
 
 One smart phone is mounted to the front of the car, providing the vehicle with a rich collection of high-performance sensors and essentially, a global communications endpoint. The on-board smart phone runs a mobile application to read data from the various sensors and communicates this information to the controller phone over a Bluetooth connection. The sensors used are a camera for obtaining visual data, an orientation sensor to measure the car's heading, a 3-axis accelerometer to measure the car's acceleration, and a GPS for determining the car's geolocation, speed, and altitude. The mobile application also provides access to the camera's dual-LED flash, which can be used as car headlights in low-light conditions.
 
